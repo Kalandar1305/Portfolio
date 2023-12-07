@@ -1,15 +1,14 @@
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Aos from "aos";
 
 const Banner = () => {
   useEffect( ()=>{
-    AOS.init({
-      easing: "ease-out-quart",
-      delay: 0,
-      duration: 750,
+    Aos.init({
+
+      duration: 1000,
     });
   },[])
   
