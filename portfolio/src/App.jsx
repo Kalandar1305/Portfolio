@@ -5,7 +5,7 @@ import Contact from "./Components/Contact"
 import Footer from "./Components/Footer"
 import Project from "./Components/Project"
 import Skills from "./Components/Skills"
-import Nav from "./Components/nav"
+import Nav from "./Components/Nav"
 import {BallTriangle} from "react-loader-spinner"
 
 const App = () => {
