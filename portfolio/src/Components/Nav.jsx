@@ -26,7 +26,7 @@ const Nav = () => {
             Skills
           </li>
         </Link>
-        <Link spy={true} smooth={true} to="Projects">
+        <Link spy={true} smooth={true} to="Project">
           <li className="my-4 py-4 border-p border-slate-800 hover:bg-slate-800 hover:rounded">
             Projects
           </li>
