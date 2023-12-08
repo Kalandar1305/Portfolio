@@ -18,7 +18,7 @@ const Contact = () => {
           <input className="w-full lg:my-3 my-4 rounded-lg bg-slate-800 p-4 border-fuchsia-800 b-glow text-xl text-slate-500" placeholder="Enter your Email" type="text"/>
         </div>
         <textarea className="w-full my-3 rounded-lg bg-slate-800 p-4 border-fuchsia-800 b-glow text-xl text-slate-500" placeholder="Enter your Message.." name="" id=""  cols="30" rows="10"/>
-        <button className="neno-button shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 border-fuchsia-800 bg-fuchsia-800 hover:bg-slate-800 rounded-lg py-4 px-8 my-6 uppercase relative overflow-hidden b-glow text-xl text-bold " type="submit">submit </button>
+        <button className="neno-button shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 border-fuchsia-800 bg-fuchsia-900 hover:bg-slate-800 rounded-lg py-4 px-8 my-6 uppercase relative overflow-hidden b-glow text-xl text-bold " type="submit">submit </button>
       </form>
     </div>
   )

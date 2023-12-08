@@ -24,13 +24,13 @@ const Banner = () => {
           <div className="flex items-center justify-center">
             <div className="flex space-x-2">
               <a
-                href=""
+                href="https://github.com/Kalandar1305" target="_blank" rel="noreferrer"
                 className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2"
               >
                 <FaGithub className="text-[28px]" />
               </a>
-              <a
-                href=""
+              <a 
+                href="https://www.linkedin.com/in/kalandar-bbb9461b6/" target="_blank" rel="noreferrer"
                 className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2"
               >
                 <FaLinkedin className="text-[28px]" />
@@ -42,7 +42,7 @@ const Banner = () => {
                 <FaXTwitter className="text-[28px]" />
               </a>
               <a
-                href=""
+                href="https://www.instagram.com/___kalandar/" target="_blank" rel="noreferrer"
                 className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2"
               >
                 <FaInstagram className="text-[28px]" />
@@ -53,7 +53,7 @@ const Banner = () => {
       </div>
       <img data-aos="fade-up"  
         src=""
-        className="rounded-full w-56 h-56 border-2 p-1 border-fuchsia-500 img_glow"
+        className="rounded-full w-56 h-56 border-2 p-1   img_glow"
         alt="profile"
       ></img>
     </div>

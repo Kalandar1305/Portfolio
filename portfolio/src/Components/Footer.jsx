@@ -23,13 +23,13 @@ const Footer = () => {
         <div className="flex space-x-4">
         
           <a
-            href=""
+            href="https://github.com/Kalandar1305" target="_blank" rel="noreferrer"
             className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out"
           >
             <FaGithub className="text-[28px]" />
           </a>
           <a
-            href=""
+            href="https://www.linkedin.com/in/kalandar-bbb9461b6/" target="_blank" rel="noreferrer"
             className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out"
           >
             <FaLinkedin className="text-[28px]" />
@@ -41,7 +41,7 @@ const Footer = () => {
             <FaXTwitter className="text-[28px]" />
           </a>
           <a
-            href=""
+            href="https://www.instagram.com/___kalandar/" target="_blank" rel="noreferrer"
             className="text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out"
           >
             <FaInstagram className="text-[28px]" />
