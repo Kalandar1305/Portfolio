@@ -52,7 +52,7 @@ const Banner = () => {
         </div>
       </div>
       <img data-aos="fade-up"  
-        src="KALANDAR_PROFILE.jpeg"
+        src=""
         className="rounded-full w-56 h-56 border-2 p-1 border-fuchsia-500 img_glow"
         alt="profile"
       ></img>
