@@ -1,24 +1,18 @@
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <footer  className="bg-slate-800 text-white lg:px-48 px-4 py-20">
-      <div className=" container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
-        <div className="mb-4 md:mb-0">
-          <span className="text-3xl font-semibold text-fuchsia-800 py-2 uppercase "> Logo</span>
-          <p className="text-[16px] my-4 ">
-            By default, Tailwind provides six drop shadow utilities, one inner
-            shadow utility, and a utility for removing existing shadows. You can
-            customize these values by editing theme.boxShadow or
-            theme.extend.boxShadow in your tailwind.config.js file.
-          </p>
-        </div>
-        <div className="mb-4 md:mb-0">
+    <footer  className="bg-slate-800 text-white lg:px-28 px-4 py-20">
+      <div className=" container mx-auto flex flex-col md:flex-row justify-between">
+        
+        <div className="flex flex-col mb-4 md:mb-0 items-center md:mr-8 md:text-center">
           <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">Contact</h2>
-          <p className="text-[16px] my-4 ">Email : kalandar1305@gmail.com</p>
+          <p className="text-[16px]  ">Email : kalandar1305@gmail.com</p>
+          <p className="text-[16px]  ">Phone : +91 9008392347</p>
         </div>
-        <div>
+        <div className="flex flex-col items-center md:text-center">
         <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">Follow Me</h2>
         <div className="flex space-x-4">
         
@@ -47,6 +41,36 @@ const Footer = () => {
             <FaInstagram className="text-[28px]" />
           </a>
         </div>
+        </div>
+        <div className="flex flex-col items-center md:text-center ">
+        <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase text-center">Site Map</h2>
+        <ul className="flex gap-4 md:gap-8 text-[18px] text-white ">
+              <Link spy={true} smooth={true} to="Home">
+                <li className="hover:text-fuchsia-600 transition  hover:border-fuchsia-600 cursor-pointer ">
+                  Home
+                </li>
+              </Link>
+              <Link spy={true} smooth={true} to="About">
+                <li className="hover:text-fuchsia-600 transition  hover:border-fuchsia-600 cursor-pointer ">
+                  About
+                </li>
+              </Link>
+              <Link spy={true} smooth={true} to="Skills">
+                <li className="hover:text-fuchsia-600 transition  hover:border-fuchsia-600 cursor-pointer ">
+                  Skills
+                </li>
+              </Link>
+              <Link spy={true} smooth={true} to="Project">
+                <li className="hover:text-fuchsia-600 transition  hover:border-fuchsia-600 cursor-pointer ">
+                  Projects
+                </li>
+              </Link>
+              <Link spy={true} smooth={true} to="Contact">
+                <li className="hover:text-fuchsia-600 transition  hover:border-fuchsia-600 cursor-pointer ">
+                  Contact{" "}
+                </li>
+              </Link>
+            </ul>
         </div>
       </div>
     </footer>
