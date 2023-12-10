@@ -32,6 +32,12 @@ const About = () => {
             </button></a>
               
             </div>
+            <div className="flex space-x-2">
+            <a href="https://bit.ly/Kalandar-certificates" target="_blank" rel="noreferrer"><button className="neno-button shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-2 px-8 uppercase relative overflow-hidden  ">
+            Certificates
+          </button></a>
+            
+          </div>
           </div>
         </div>
       </div>
