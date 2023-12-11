@@ -1,6 +1,14 @@
+import { useEffect } from "react";
 import ProjectCard from "./ProjectCard";
+import Aos from "aos";
 
 const Project = () => {
+  useEffect( ()=>{
+    Aos.init({
+      duration: 1000,
+    });
+  }, [])
+    
   const projects = [
     {
       title: "kalandar-portfolio",
@@ -44,7 +52,7 @@ const Project = () => {
       id="Project"
       className="p-20 flex flex-col items-center justify-center "
     >
-      <h1 className="text-[52px] font-semeibold mb-20 leading-normal uppercase text-fuchsia-500">
+      <h1 className="text-[52px] font-semeibold mb-20 leading-normal uppercase text-fuchsia-500" data-aos="fade-right">
         Projects
       </h1>
       <div className="px-20 flex flex-wrap justify-center">
