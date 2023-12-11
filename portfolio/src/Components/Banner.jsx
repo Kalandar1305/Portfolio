@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 
 
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
