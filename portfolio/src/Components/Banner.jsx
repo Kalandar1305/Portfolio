@@ -27,7 +27,7 @@ const Banner = () => {
             data-aos="fade-right"
             className=" text-2xl font-bold mb-2 leading-normal"
           >
-            Hello, I'm Kalandar
+            Hello, I'm <span className="text-fuchsia-500 uppercase">Kalandar</span>
           </p>
           <p
             data-aos="fade-right"
@@ -78,8 +78,8 @@ const Banner = () => {
       </div>
       <img
         data-aos="fade-up"
-        src=""
-        className="rounded-full w-56 h-56 border-2 p-1   img_glow"
+        src="home-main.svg"
+        className="rounded-full w-56 h-56  p-1 md:w-80 md:h-80 lg:w-96 lg:h-96  img_glow"
         alt="profile"
       ></img>
     </div>

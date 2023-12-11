@@ -13,13 +13,12 @@ const About = () => {
       id="About"
       className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg-text-start flex lg:flex-row flex-col justify-between lg:gap-28 items-center"
     >
-      {/* <img
-        data-aos="fade-down"
-        src=""
-        className="rounded w-56 h-56 border-2 p-1  img_glow"
+       <img
+        data-aos="fade-up"
+        src="profile.jpeg"
+        className="rounded-full w-56 h-56  p-1 md:w-80 md:h-80 lg:w-96 lg:h-96  img_glow"
         alt="profile"
-  ></img>*/} 
-      
+  ></img>
       <div className="h-full lg:py-40 flex flex-col justify-center  items-center text-white">
         <h2
           data-aos="fade-right"

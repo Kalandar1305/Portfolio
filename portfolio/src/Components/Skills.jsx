@@ -25,51 +25,51 @@ const Skills = () => {
       <div className="grid  lg:grid-cols-4 md:grid-cols-2 grid-col-1 justify-around gap-20">
         <h2
           data-aos="fade-up"
-          className="text-[26px] flex flex-col items-center justify-center font-semibold text-white rounded-ss-3xl rounded-br-3xl h-36 w-44 border-2  b-glow"
+          className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] flex flex-col items-center justify-center font-semibold text-white rounded-ss-3xl rounded-br-3xl h-36 sm:h-36 md:h-44 lg:h-52 w-36 sm:w-36 md:w-44 lg:w-52 border-2 b-glow"
         >
           <span className="uppercase">Html</span>
           <FaHtml5 className="text-[28px] text-white" />
         </h2>
         <h2
           data-aos="fade-down"
-          className="text-[26px] flex flex-col items-center justify-center font-semibold text-white rounded-ss-3xl rounded-br-3xl h-36 w-44 border-2  b-glow"
+          className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] flex flex-col items-center justify-center font-semibold text-white rounded-ss-3xl rounded-br-3xl h-36 sm:h-36 md:h-44 lg:h-52 w-36 sm:w-36 md:w-44 lg:w-52 border-2 b-glow"
         >
         <span className="uppercase">CSS3</span> <IoLogoCss3 className="text-[28px]  text-white" />
         </h2>
         <h2
           data-aos="fade-up"
-          className="text-[26px] flex flex-col items-center justify-center font-semibold text-white rounded-ss-3xl rounded-br-3xl h-36 w-44 border-2  b-glow"
+          className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] flex flex-col items-center justify-center font-semibold text-white rounded-ss-3xl rounded-br-3xl h-36 sm:h-36 md:h-44 lg:h-52 w-36 sm:w-36 md:w-44 lg:w-52 border-2 b-glow"
         >
           <span className="uppercase">JavaScript</span> <DiJavascript className="text-[28px]  text-white" />
         </h2>
         <h2
           data-aos="fade-down"
-          className="text-[26px] flex flex-col items-center justify-center font-semibold text-white rounded-ss-3xl rounded-br-3xl h-36 w-44 border-2  b-glow"
+          className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] flex flex-col items-center justify-center font-semibold text-white rounded-ss-3xl rounded-br-3xl h-36 sm:h-36 md:h-44 lg:h-52 w-36 sm:w-36 md:w-44 lg:w-52 border-2 b-glow"
         >
           <span className="uppercase">Java</span> <FaJava className="text-[28px]  text-white" />
         </h2>
         <h2
           data-aos="fade-up"
-          className="text-[26px] flex flex-col items-center justify-center font-semibold text-white rounded-ss-3xl rounded-br-3xl h-36 w-44 border-2  b-glow"
+          className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] flex flex-col items-center justify-center font-semibold text-white rounded-ss-3xl rounded-br-3xl h-36 sm:h-36 md:h-44 lg:h-52 w-36 sm:w-36 md:w-44 lg:w-52 border-2 b-glow"
         >
           <span className="uppercase">React</span> <FaReact className="text-[28px]  text-white" />
         </h2>
         <h2
           data-aos="fade-down"
-          className="text-[26px] flex flex-col items-center justify-center font-semibold text-white rounded-ss-3xl rounded-br-3xl h-36 w-44 border-2  b-glow"
+          className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] flex flex-col items-center justify-center font-semibold text-white rounded-ss-3xl rounded-br-3xl h-36 sm:h-36 md:h-44 lg:h-52 w-36 sm:w-36 md:w-44 lg:w-52 border-2 b-glow"
         >
           <span className="uppercase">SQL</span> <SiMysql className="text-[28px]  text-white" />
         </h2>
         <h2
           data-aos="fade-up"
-          className="text-[26px] flex flex-col items-center justify-center font-semibold text-white rounded-ss-3xl rounded-br-3xl h-36 w-44 border-2  b-glow"
+          className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] flex flex-col items-center justify-center font-semibold text-white rounded-ss-3xl rounded-br-3xl h-36 sm:h-36 md:h-44 lg:h-52 w-36 sm:w-36 md:w-44 lg:w-52 border-2 b-glow"
         >
           <span className="uppercase">Tailwind CSS</span>
           <SiTailwindcss className="text-[28px]  text-white" />
         </h2>
         <h2
           data-aos="fade-down"
-          className="text-[26px] flex flex-col items-center justify-center font-semibold text-white rounded-ss-3xl rounded-br-3xl h-36 w-44 border-2  b-glow"
+          className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] flex flex-col items-center justify-center font-semibold text-white rounded-ss-3xl rounded-br-3xl h-36 sm:h-36 md:h-44 lg:h-52 w-36 sm:w-36 md:w-44 lg:w-52 border-2 b-glow"
         >
           <span className="uppercase">Material UI</span>  <img src="download.png" alt="Your Alt Text" className="text-[28px] w-7 h-7 text-white" />
         </h2>
