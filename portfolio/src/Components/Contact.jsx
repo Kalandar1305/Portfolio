@@ -22,6 +22,7 @@ const Contact = () => {
     const serviceId = import.meta.env.VITE_SERVICE_ID;
     const templateId = import.meta.env.VITE_TEMPLATE_ID
     const publicKey = import.meta.env.VITE_PUBLIC_KEY;
+    
     const data = {
       service_id: serviceId,
       template_id: templateId,
