@@ -1,7 +1,4 @@
-
-
 import ProjectCard from "./ProjectCard";
-
 
 const Project = () => {
   const projects = [
@@ -51,9 +48,9 @@ const Project = () => {
         Projects
       </h1>
       <div className="px-20 flex flex-wrap justify-center">
-      {projects.map((project,index) => (
-        <ProjectCard key={index} index={index} {...project} />
-      ))}
+        {projects.map((project, index) => (
+          <ProjectCard key={index} index={index} {...project} />
+        ))}
       </div>
     </div>
   );
