@@ -9,7 +9,7 @@ const Footer = () => {
         
         <div className="flex flex-col mb-4 md:mb-0 items-center md:mr-8 md:text-center">
           <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">Contact</h2>
-          <p className="text-[16px]  ">Email : kalandar1305@gmail.com</p>
+          <p className="text-[16px]   "> Email : <a href="mailto:kalandar1305@gmail.com" className="hover:text-fuchsia-600 underline ">kalandar1305@gmail.com</a></p>
           <p className="text-[16px]  ">Phone : +91 9008392347</p>
         </div>
         <div className="flex flex-col items-center md:text-center">
