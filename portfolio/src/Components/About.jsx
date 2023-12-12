@@ -46,7 +46,7 @@ const About = () => {
        
         <div className="flex justify-center space-x-4 mt-8"  data-aos="fade-right">
           <a
-            href="https://bit.ly/Kalaandar_resume"
+            href="https://bit.ly/Kalandar-Resume"
             target="_blank"
             rel="noreferrer"
           >
