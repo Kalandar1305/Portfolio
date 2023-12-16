@@ -12,7 +12,7 @@ const Nav = () => {
     <div className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-slate-900 transition">
       <ul className="text-center text-xl p-20">
         <Link spy={true} smooth={true} to="Home">
-          <li className="my-4 py-4 border-p border-slate-800 hover:bg-slate-800 hover:rounded">
+          <li className="my-4 py-4  border-p border-slate-800 hover:bg-slate-800 hover:rounded ">
             Home
           </li>
         </Link>
@@ -32,7 +32,7 @@ const Nav = () => {
           </li>
         </Link>
         <Link spy={true} smooth={true} to="Contact">
-          <li className="my-4 py-4 border-p border-slate-800 hover:bg-slate-800 hover:rounded">
+          <li className="my-4 py-4  border-p border-slate-800 hover:bg-slate-800 hover:rounded">
             Contact{" "}
           </li>
         </Link>

@@ -26,7 +26,9 @@ const About = () => {
         >
           About me
         </h2>
-        <p data-aos="fade-left">
+        <p
+          data-aos="fade-left"
+        >
           I recently completed my Bachelor of Engineering in{" "}
           <span className="text-fuchsia-800 uppercase text-[18px]">
             Information Science and Engineering
@@ -34,7 +36,9 @@ const About = () => {
           in 2023 at NMAM Institute of Technology, Nitte, with a notable CGPA of
           8.87.
         </p>
-        <p data-aos="fade-left">Currently, I am actively learning the{" "}
+        <p
+          data-aos="fade-left"
+        >Currently, I am actively learning the{" "}
         <span className="text-fuchsia-800 uppercase text-[18px]">
           MERN stack
         </span>{" "}
@@ -44,7 +48,8 @@ const About = () => {
         </span>{" "}
         in the software field.{" "}</p>
        
-        <div className="flex justify-center space-x-4 mt-8"  data-aos="fade-right">
+        <div className="flex justify-center space-x-4 mt-8"
+          data-aos="fade-right">
           <a
             href="https://bit.ly/Kalandar-Resume"
             target="_blank"

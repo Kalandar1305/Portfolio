@@ -6,7 +6,9 @@ import Footer from "./Components/Footer"
 import Project from "./Components/Project"
 import Skills from "./Components/Skills"
 import Nav from "./Components/Nav"
-import {BallTriangle} from "react-loader-spinner"
+import { BallTriangle } from "react-loader-spinner"
+
+
 
 const App = () => {
   const [loading, setLoading] =useState(false)
@@ -39,8 +41,10 @@ const App = () => {
       <About />
       <Skills />
       <Project />
-      <Contact />
-      <Footer/>
+            <Contact />
+           
+            <Footer />
+           
     </div> 
       }
     </>

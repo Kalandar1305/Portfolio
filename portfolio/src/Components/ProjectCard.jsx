@@ -24,7 +24,7 @@ const ProjectCard = ({ title, description, githubLink, skills,index }) => {
       
     <div className="max-w-md mx-4 my-8 p-10 shadow-md rounded-md text-center rounded-ss-3xl rounded-br-3xl border-2 b-glow" data-aos={getAOSDirection()} >
       <h1 className="text-white text-4xl font-bold mb-4">{title}</h1>
-      <p className="text-white text-lg text-gray-700 mb-6">{description}</p>
+      <p className="text-white text-lg  mb-6">{description}</p>
       <div className="flex justify-between">
         <a
           href={githubLink}

@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <footer  className="bg-slate-800 text-white lg:px-28 px-4 py-20">
+    <footer  className="bg-slate-800 text-white lg:px-28 px-4 py-20 ">
       <div className=" container mx-auto flex flex-col md:flex-row justify-between">
         
         <div className="flex flex-col mb-4 md:mb-0 items-center md:mr-8 md:text-center">
