@@ -6,12 +6,13 @@ const About = () => {
   useEffect(() => {
     Aos.init({
       duration: 1000,
+      
     });
   }, []);
   return (
     <div
       id="About"
-      className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg-text-start flex lg:flex-row flex-col justify-between lg:gap-28 items-center"
+      className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg-text-start flex lg:flex-row flex-col justify-between lg:gap-28 items-center overflow-hidden"
     >
        <img
         data-aos="fade-up"
@@ -37,7 +38,7 @@ const About = () => {
           8.87.
         </p>
         <p
-          data-aos="fade-left"
+          // data-aos="fade-left"
         >Currently, I am actively learning the{" "}
         <span className="text-fuchsia-800 uppercase text-[18px]">
           MERN stack

@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col items-center md:text-center ">
         <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase text-center">Site Map</h2>
-        <ul className="flex gap-4 md:gap-8 text-[18px] text-white ">
+        <ul className="flex gap-4 md:gap-8 text-[16px] text-white ">
               <Link spy={true} smooth={true} to="Home">
                 <li className="hover:text-fuchsia-600 transition  hover:border-fuchsia-600 cursor-pointer ">
                   Home

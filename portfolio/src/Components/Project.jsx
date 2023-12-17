@@ -50,14 +50,14 @@ const Project = () => {
   return (
     <div
       id="Project"
-      className="p-20 flex flex-col items-center justify-center "
+      className="p-20 flex flex-col items-center justify-center overflow-hidden "
     >
       <h1 className="text-[52px] font-semeibold mb-20 leading-normal uppercase text-fuchsia-500"
         data-aos="fade-right"
       >
         Projects
       </h1>
-      <div className="px-20 flex flex-wrap justify-center">
+      <div className="px-10 flex flex-wrap justify-center">
         {projects.map((project, index) => (
           <ProjectCard key={index} index={index} {...project} />
         ))}
